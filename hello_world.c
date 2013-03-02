@@ -18,5 +18,6 @@ int getval ()
 
 int main() {
 	display("Hello Srinath");
+	display("Hello Ashish");
 	return 0;
 }
