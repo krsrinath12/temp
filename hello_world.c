@@ -12,5 +12,6 @@ void display(char *name) {
 
 int main() {
 	display("Hello Srinath");
+	display("Hello Ashish");
 	return 0;
 }
