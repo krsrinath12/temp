@@ -1,7 +1,8 @@
 #include <stdio.h>
 
-void dummy (void)
+void dummy ()
 {
+	printf ("This function has been added by an idiot.\n");
 }
 
 
@@ -9,6 +10,7 @@ void dummysneha(void){}
 
 void display(char *name) {
 	printf("%s\n", name);
+	dummy ();
 }
 
 
