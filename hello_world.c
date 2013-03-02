@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdlib.h>
 
 void dummy ()
 {
@@ -8,6 +9,11 @@ void dummy ()
 void display(char *name) {
 	printf("%s\n", name);
 	dummy ();
+}
+
+int getval ()
+{
+	return random ();
 }
 
 int main() {
