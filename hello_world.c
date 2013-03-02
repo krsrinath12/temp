@@ -4,7 +4,11 @@ void dummy (void)
 {
 }
 
+void display(char *name) {
+	printf("%s\n", name);
+}
+
 int main() {
-	printf("Hello Srinath\n");
+	display("Hello Srinath");
 	return 0;
 }
