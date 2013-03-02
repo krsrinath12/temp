@@ -19,5 +19,6 @@ int getval ()
 int main() {
 	display("Hello Srinath");
 	display("Hello Ashish");
+	printf ("%d\n", getval ());
 	return 0;
 }
