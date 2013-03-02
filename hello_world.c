@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdlib.h>
 
 void dummy ()
 {
@@ -16,7 +17,16 @@ void display(char *name) {
 }
 
 
+
+int getval ()
+{
+	return random ();
+}
+
+
 int main() {
 	display("Hello Srinath");
+	display("Hello Ashish");
+	printf ("%d\n", getval ());
 	return 0;
 }
