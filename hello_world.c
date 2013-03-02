@@ -6,7 +6,9 @@ void dummy ()
 }
 
 
-void dummysneha(void){}
+void dummysneha(void){
+	//comment
+}
 
 void display(char *name) {
 	printf("%s\n", name);
